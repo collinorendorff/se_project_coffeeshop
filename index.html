@@ -111,7 +111,60 @@
             </p>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label form__label_first"
+                >Name *</label
+              >
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Name Surname"
+                required
+              />
+
+              <label for="guests" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="form__input"
+                id="guests"
+                name="guests"
+                placeholder="1-8"
+                required
+              />
+
+              <label for="datetime" class="form__label">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="datetime"
+                name="datetime"
+                required
+              />
+
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="form__button" type="submit">Book a table</button>
+            <label class="form__label form__label_last">
+              <input type="checkbox" class="form__checkbox" required />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
