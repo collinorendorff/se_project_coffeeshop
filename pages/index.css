@@ -1,3 +1,9 @@
+@import url("../blocks/header.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/form.css");
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -11,6 +17,7 @@
   background-size: cover;
 }
 
+/*
 .header {
   height: 800px;
   position: relative;
@@ -108,7 +115,7 @@
   bottom: 40px;
   right: 80px;
 }
-/*Next is page 8*/
+
 .header__paragraph {
   margin: 0;
   font-family: "Inter";
@@ -286,3 +293,4 @@
 .form__checkbox {
   border-radius: 2px;
 }
+*/
