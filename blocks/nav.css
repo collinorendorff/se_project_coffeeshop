@@ -25,6 +25,11 @@
   padding-right: 20px;
   text-decoration: none;
   color: black;
+  transition: opacity 0.2s linear;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
 }
 
 .nav__link_padding-disabled {
