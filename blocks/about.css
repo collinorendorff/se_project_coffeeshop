@@ -15,33 +15,38 @@
   background-color: #0a2850;
   color: #fff;
   position: relative;
-  height: 482px;
+  /*height: 482px;*/
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
   max-width: 251px;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  position: absolute;
+  /*position: absolute;
   top: 100px;
-  left: 80px;
+  left: 80px;*/
   z-index: 1;
+  padding-top: 100px;
+  padding-left: 80px;
 }
 
 .about__content {
   max-width: 660px;
-  position: absolute;
+  /*position: absolute;
   top: 119px;
-  right: 80px;
+  right: 80px;*/
+  padding: 119px 80px 173px 0;
 }
 
 .about__paragraph {
   margin: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
