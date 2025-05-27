@@ -3,23 +3,27 @@
   background-image: url("../images/background_reservation.svg");
   background-position: center;
   background-size: cover;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
-  width: 241.95px;
+  /*width: 241.95px;*/
+  max-width: 385px;
+  text-align: center;
   margin: 0 auto;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   padding-top: 100px;
   color: #000;
+  padding-bottom: 80px;
 }
 
 .reservation__form {
-  width: 385px;
+  max-width: 385px;
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 120px;
+  /*padding-top: 80px;
+  padding-bottom: 120px;*/
 }

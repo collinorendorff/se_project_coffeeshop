@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   color: white;
-  position: relative;
+  /*position: relative;*/
 }
 
 .recipes__title {
@@ -12,7 +12,7 @@
   max-width: 580px;
   padding-left: 80px;
   padding-top: 100px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -24,7 +24,7 @@
   max-width: 438px;
   padding-top: 24px;
   padding-left: 80px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -56,7 +56,7 @@
 .recipes__video-caption {
   margin: 0;
   padding-top: 24px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;

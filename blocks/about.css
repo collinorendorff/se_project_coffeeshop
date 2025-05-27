@@ -18,6 +18,7 @@
   /*height: 482px;*/
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .about__title {
